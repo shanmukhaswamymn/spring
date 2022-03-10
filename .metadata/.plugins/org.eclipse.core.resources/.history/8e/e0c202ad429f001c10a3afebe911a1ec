@@ -1,0 +1,23 @@
+package com.xworkz.lemon.DTO;
+
+public class Lemon {
+	
+	
+	private String mantravadi;
+	private String location;
+
+	
+	public String getMantravadi() {
+		return mantravadi;
+	}
+	public void setMantravadi(String mantravadi) {
+		this.mantravadi = mantravadi;
+	}
+	public String getLocation() {
+		return location;
+	}
+	public void setLocation(String location) {
+		this.location = location;
+	}
+	
+}

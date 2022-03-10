@@ -1,0 +1,23 @@
+package com.xworkz.Spring.bean.runner;
+
+import javax.naming.Context;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationContextException;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.xworkz.Spring.bean.SeasonBean;
+
+public class Runner {
+	
+	public static void main(String[] args) {
+		
+		ApplicationContext context=new ClassPathXmlApplicationContext(Context.class);
+		SeasonBean bean=context.getBean(SeasonBean.class);
+		
+		
+		bean.SeasonName=("rainy";)
+		
+	}
+
+}

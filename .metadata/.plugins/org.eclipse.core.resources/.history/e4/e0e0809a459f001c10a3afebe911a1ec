@@ -1,0 +1,23 @@
+package com.xworkz.lemon.Test;
+
+import java.util.Arrays;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.xworkz.lemon.bean.LemonBean;
+
+public class Leamonrunner {
+	
+	public static void main(String[] args) {
+		
+ApplicationContext context=new ClassPathXmlApplicationContext("Context.xml");
+		
+		LemonBean lemon=context.getBean("bean",LemonBean.class);
+		
+		lemon.matamantra();
+		System.out.println(Arrays.toString(lemon.getClass()));
+		
+	}
+
+}

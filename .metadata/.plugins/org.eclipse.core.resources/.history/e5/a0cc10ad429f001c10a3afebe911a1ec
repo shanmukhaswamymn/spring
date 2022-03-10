@@ -1,0 +1,11 @@
+package com.xworkz.lemon.DTO;
+
+public class Lemon {
+	
+	import lombok.Data;
+	
+	private String mantravadi;
+	private String location;
+
+	
+	

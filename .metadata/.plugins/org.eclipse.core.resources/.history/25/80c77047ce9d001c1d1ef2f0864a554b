@@ -1,0 +1,5 @@
+package com.xworkz.Spring.bean;
+
+public class SeasonBean {
+
+}

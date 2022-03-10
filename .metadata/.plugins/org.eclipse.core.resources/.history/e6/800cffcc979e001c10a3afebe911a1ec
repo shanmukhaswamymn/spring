@@ -1,0 +1,8 @@
+package com.xworkz.lemon.DTO;
+
+public class Lemon {
+	
+	private String mantravadi;
+	private String location;
+
+}
